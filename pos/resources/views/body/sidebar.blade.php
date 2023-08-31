@@ -52,6 +52,25 @@
                     </div>
                 </li>
 
+                <li>
+                    <a href="#sidebarEmail" data-bs-toggle="collapse">
+                        <i class="mdi mdi-email-multiple-outline"></i>
+                        <span> Supplier Manage </span>
+                        <span class="menu-arrow"></span>
+                    </a>
+                    <div class="collapse" id="sidebarEmail">
+                        <ul class="nav-second-level">
+                            <li>
+                                <a href="{{ route('all.supplier') }}">All Supplier</a>
+                            </li>
+                            <li>
+                                <a href="{{ route('add.supplier') }}">Add Supplier</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </li>
+
                 <li class="menu-title mt-2">Custom</li>
 
                 <li>
