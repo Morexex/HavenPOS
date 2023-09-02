@@ -10,7 +10,6 @@ use App\Models\Supplier;
 use Intervention\Image\Facades\Image;
 use Carbon\Carbon;
 use Haruncpi\LaravelIdGenerator\IdGenerator;
-
 use App\Exports\ProductExport;
 use Maatwebsite\Excel\Facades\Excel;
 use App\Imports\ProductImport;
